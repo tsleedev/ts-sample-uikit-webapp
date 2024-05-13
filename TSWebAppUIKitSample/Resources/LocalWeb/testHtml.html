@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Window Open / Close Test</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h3>Received Message From Child</h3>
+        <div id="message-container">
+            Waiting Message!
+        </div>
+        
+        <h3>Window Open / Close</h3>
+        <div>
+            <button id="tapOpenWindow" class="buttonStyle">window.open()</button>
+            <button id="tapCloseWindow" class="buttonStyle">window.close()</button>
+        </div>
+        
+        <div>
+            <button id="tapOpenAndCloseWindow" class="buttonStyle">window<br>openAndClose</button>
+            <button id="tapCloseParentWindow" class="buttonStyle">window.opener.close()</button>
+        </div>
+        <div>
+            <button id="tapSendMessageToParent" class="buttonStyle">Send Message<br>To Parent</button>
+        </div>
+        
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>
