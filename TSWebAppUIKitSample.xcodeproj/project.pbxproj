@@ -129,7 +129,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
-				ORGANIZATIONNAME = "https://github.com/tsleedev ";
+				ORGANIZATIONNAME = "https://github.com/tsleedev/";
 				TargetAttributes = {
 					7CD475E22BEE000A00E5237D = {
 						CreatedOnToolsVersion = 15.3;

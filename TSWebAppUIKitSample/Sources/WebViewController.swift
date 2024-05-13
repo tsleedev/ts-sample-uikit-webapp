@@ -3,7 +3,7 @@
 //  TSWebAppUIKitSample
 //
 //  Created by TAE SU LEE on 5/10/24.
-//  Copyright © 2024 https://github.com/tsleedev . All rights reserved.
+//  Copyright © 2024 https://github.com/tsleedev/. All rights reserved.
 //
 
 import UIKit

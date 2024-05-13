@@ -29,19 +29,19 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 /* 기본 브라우저 기능 */
-document.getElementById("tapOpenAndCloseWindow").onclick = function() {
-    openNextPageInNewWindow();
-    setTimeout(function() {
-        window.close();
-    }, 1000); // 1000밀리초(1초) 후에 창 닫음
-};
-
 document.getElementById("tapOpenWindow").onclick = function() {
     openNextPageInNewWindow();
 };
 
 document.getElementById("tapCloseWindow").onclick = function() {
     window.close();
+};
+
+document.getElementById("tapOpenAndCloseWindow").onclick = function() {
+    openNextPageInNewWindow();
+    setTimeout(function() {
+        window.close();
+    }, 1000); // 1000밀리초(1초) 후에 창 닫음
 };
 
 document.getElementById("tapCloseParentWindow").onclick = function() {
